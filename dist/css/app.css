@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    font-size: 26px;
+    background: #0f0f0f;
+    color: #fff;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 1.2rem;
+    }
+  }
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 90%;
+    text-align: center;
+}
+
+pre {
+    color: #ff4848;
+}
+
+
+footer {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    background: #181818;
+    padding: 1rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ff4848;
+    margin-left: 0.2rem;
+}
